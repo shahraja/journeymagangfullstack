@@ -11,7 +11,7 @@ function angkaPalindrome(num){
       if (j == x){    //jika nilai j sama dengan nilai x
        return j   //akan me-return nilai j
      }
-     
+      
     }
      
   }
