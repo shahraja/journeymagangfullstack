@@ -1,12 +1,12 @@
 function cariMean(arr) {
   // you can only write your code here!
-  var jumlah = 0;
+  var jumlah = 0;	//membuat variable jumlah dengan nilai 0
   
-  for (var i in arr) {
-    jumlah += arr[i];
+  for (var i in arr) {	//membuat perulangan dengan variable i dalam arr
+    jumlah += arr[i];	//variable jumlah ditambah sama dengan arr dengan nilai array i
   }
   
-  return Math.round(jumlah / arr.length);
+  return Math.round(jumlah / arr.length);	//maka jalankan math.round untuk membulatkan nilai angka dari nilai variable jumlah dan arr
 }
 
 // TEST CASES
