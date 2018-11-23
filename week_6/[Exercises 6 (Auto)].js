@@ -1,15 +1,15 @@
 function angkaPalindrome(num){
-  if (num < 9){
-    return num+1 
-  }else{
-    for(var j = num; j < 2000; j++){
+  if (num < 9){     //jika num (parameter) kurang dari 9
+    return num+1    //akan me-return num (parameter) di tambah dengan 1
+  }else{    // jika salah
+    for(var j = num; j < 2000; j++){    //akan menjalankan variable j yang berisi variable num (parameter)
       var x = j.toString()
       x = x.split("")
       x = x.reverse()
       x = x.join("")
       
-      if (j == x){
-       return j
+      if (j == x){    //jika nilai j sama dengan nilai x
+       return j   //akan me-return nilai j
      }
      
     }
