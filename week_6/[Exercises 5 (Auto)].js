@@ -1,9 +1,9 @@
 function palindrome(kata) {
   // you can only write your code here!
- var reversed = kata.split("").reverse().join("");
- if (reversed === kata) return true;
+ var reversed = kata.split("").reverse().join(""); //membuat variable dengan memecah kata
+ if (reversed === kata) return true; //jika variable sama dengan kata maka akan me-return true
 
- return false
+ return false //jika variable tidak sama dengan kata akan me-return false
 }
 
 // TEST CASES
