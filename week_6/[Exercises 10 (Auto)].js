@@ -1,16 +1,16 @@
 function perkalianUnik(arr) {
-  var i=[];
+  var i=[];   //membuat variable i dengan nilai array
   // you can only write your code here!
-  for(var a=0;a<arr.length;a++){
-    var ar=1;
-    for(var b=0;b<arr.length;b++){
-      if(a !== b){
-        ar *= arr[b];
+  for(var a=0;a<arr.length;a++){  //membuat perulangan variable a dengan nilai 0, a kurang dari arr, dan melakukan dari yang terkecil
+    var ar=1; //membuat variable ar dengan nilai 1
+    for(var b=0;b<arr.length;b++){ 
+      if(a !== b){  //jika a tidak sama dengan b
+        ar *= arr[b]; //variable ar kali sama dengan arr dengan array b
       }
     }
-    i.push(ar);
+    i.push(ar); //variable i dan menyimpan nilai ar
   }
-  return i;
+  return i; //maka jalanka variable i
 }
 
 // TEST CASES
