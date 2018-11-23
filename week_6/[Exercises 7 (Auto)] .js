@@ -1,6 +1,7 @@
 function hitungJumlahKata(kalimat) {
   // you can only write your code here!
-  return kalimat.split(" ").length
+  return kalimat.split(" ").length	
+  //akan me-return kalimat.split(" ") untuk memecah kalimat menjadi kata perkata, dan menjumlahkan kata tersebut
 }
 
 // TEST CASES
