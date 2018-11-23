@@ -6,7 +6,7 @@ function palindrome(kata) {
  //jika variable reversed sama dengan kata (parameter) maka akan me-return true
 
  return false 
- //jika variable reversed tidak sama dengan kata akan me-return false
+ //jika variable reversed tidak sama dengan kata akan me-return false 
 }
 
 // TEST CASES
