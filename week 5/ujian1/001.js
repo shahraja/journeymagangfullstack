@@ -27,7 +27,7 @@ Di akhir program, tampilkan di log "Ibu Tini membeli <nilai Shopping Bag> dan si
 var debitCardName='Tini';
 var DebitCardAmount= 150000;
 
-var shoppingBag ='Chicken' ;
+var shoppingBag ='Fish' ;
 
 if(debitCardName===''){
   console.log('Tidak bisa belanja. Pulang lagi deh.')
