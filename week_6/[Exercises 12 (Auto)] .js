@@ -1,11 +1,11 @@
 function tentukanDeretGeometri(arr) {
   // you can only write your code here!
-   var increment = arr[1] / arr [0]
-  var selisih = 0;
-  for (var i = 0; i< arr.length -1; i++){
+   var increment = arr[1] / arr [0]		//membuat variable increment dengan nilai variable arr yang bernilai array 1 atau 0
+  var selisih = 0;	//membuat variable selisih dengan nilai 0
+  for (var i = 0; i< arr.length -1; i++){	//membuat perulangan dengan variable i bernilai 0, i kurang dari variable arr.length-1, dan perulangan dari yang terkecil
     selisih = arr[i+1] / arr[i]
   }
-  return increment === selisih;
+  return increment === selisih;	//jalankan increment sama dengan selisih
 }
 
 // TEST CASES
