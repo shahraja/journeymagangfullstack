@@ -2,7 +2,7 @@ function mengelompokkanAngka(arr) {
   // you can only write your code here!
    var tampung = [ [], [], [] ];  //membuat variable tampung dengan nilai array
   for(var i = 0 ; i < arr.length ; i++) { //membuatperulangan variable i dengan nilai 0, i kurang dari arr.length, i++
-    if(arr[i] % 3 === 0){ //jika variable arr dengan nilai i modulus(hasil yang habis dibagi) sama dengan 0
+    if(arr[i] % 3 === 0){ //jika variable arr dengan nilai i modulus(hasil yang habis dibagi) sama dengan 0 
       tampung[2].push(arr[i]) //variable tampung dengan nilai 2 .push(simpan nilai) variable arr dengan nilai i
     }else if(arr[i] % 2 === 0){ //jika tidak variable arr dengan nilai i modulus(hasil yang habis dibagi) sama dengan 0
       tampung[0].push(arr[i]) //variable tampung dengan nilai 0 .push(simpan nilai) dari variable arr dengan nilai i
