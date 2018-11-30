@@ -4,7 +4,7 @@ function targetTerdekat(arr) {
   var jarak = 0   //membuat variable jarak dengan nilai 0
   var jarakTerdekat = arr.length  //membuat variable jarakTerdekat dengan nilai variable arr.length
   
-  if (arr.indexOf("x") === -1) {  //jika arr.indexOf adalah x sama dengan dikurang 1
+  if (arr.indexOf("x") === -1) {  //jika arr.indexOf adalah x sama dengan dikurang 1 
     return 0  //jalankan 0
   }
   
